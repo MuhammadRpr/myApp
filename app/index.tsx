@@ -1,32 +1,9 @@
-import { Text, TextInput, View } from "react-native";
+import Latihan1 from "@/components/latihan/Latihan1";
+
 
 export default function Index() {
   return (
-    <View>
-      <Text>muhammad</Text>
-      <Text>isi nama</Text>
-      <TextInput placeholder="nama"  style={{
-          height: 40,
-          padding: 5,
-          marginHorizontal: 8,
-          borderWidth: 1,
-        }}/>
-        <Text>isi kelas</Text>
-      <TextInput placeholder="kelas"  style={{
-          height: 40,
-          padding: 5,
-          marginHorizontal: 8,
-          borderWidth: 1,
-        }}/>
-        <Text>isi hobi</Text>
-      <TextInput placeholder="hobi"  style={{
-          height: 40,
-          padding: 5,
-          marginHorizontal: 8,
-          borderWidth: 1,
-        }}/>
-    </View>
-
-    
+    <Latihan1 />
+   
   );
 }
