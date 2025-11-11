@@ -19,7 +19,7 @@ export default function DetailScreen() {
       <ScrollView>
         <Image
           source={require("@/assets/images/prog0.png")}
-          style={{ width: "100%", height: 220 }}
+          style={{ width: "100%", height: 200 }}
         />
         <View style={styles.content}>
           <Text style={styles.title}>Belajar Programming</Text>
