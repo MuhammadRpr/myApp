@@ -36,7 +36,10 @@ export default function DetailScreen() {
         </View>
       </ScrollView>
       <View style={styles.bg}>
-        <TouchableOpacity style={styles.update}>
+        <TouchableOpacity
+          style={styles.update}
+          onPress={() => router.push(`/update/${note?.id}`)}
+        >
           <Text style={{ color: "white" }}>Update</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.delete}>
